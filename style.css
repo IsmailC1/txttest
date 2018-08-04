@@ -1,5 +1,6 @@
 body{
     background-color: #EEE;
+    font-family:Helvetica,Arial, Helvetica, sans-serif;
 }
 
 #container{
@@ -16,6 +17,7 @@ body{
         background-color:#66CCff; 
         color: white;   
         text-align:center;  
+        padding: 10px;
 }
 #nav{
     width: 180px;
@@ -28,13 +30,27 @@ a{
 #main {
     width: 600px;
     float: right;
+
 }
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+h1,h2,h3{
+    margin: 0;
+}
+
 #footer{
     clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color:white;
+    text-align:right;
 }
 #nav .selected{
     font-weight: bold;
 
 }
+
 
 
